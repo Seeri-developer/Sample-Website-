@@ -927,11 +927,21 @@ p {
         font-size: 42%;
     }
 }
+@media screen and (max-width:614px){
+    :root{
+        font-size: 40%;
+    }
+}
+@media screen and (max-width:582px){
+    :root{
+        font-size:38%;
+    }
+}
 
 /* Small Screen sm  */
 @media screen and (max-width:575.98px){
     :root{
-        font-size: 42%;
+        font-size: 40%;
     }
     .announce-icon{
         max-width: 16%;
@@ -949,31 +959,25 @@ p {
         font-size: 1.6rem;
         margin-top: 1rem;
     }
-    .navbar-nav{
-        margin-top:2rem !important;
-    }
-    .list-item{ 
-        margin-bottom:1rem !important;
-    }
 }
 @media screen and (max-width:490px){
-    :root{
-        font-size: 36%;
-    }
-}
-@media screen and (max-width:400px){
     :root{
         font-size: 32%;
     }
 }
-@media screen and (max-width:350px){
+@media screen and (max-width:400px){
     :root{
-        font-size: 27%;
+        font-size: 30%;
+    }
+}
+@media screen and (max-width:361px){
+    :root{
+        font-size: 25%;
     }
 }
 @media screen and (max-width:309px){
     :root{
-        font-size: 23%;
+        font-size: 21%;
     }
     .about-item .active{
         padding: 0.7rem 1.25rem;
@@ -981,7 +985,7 @@ p {
 }
 @media screen and (max-width:270px){
     :root{
-        font-size: 20%;
+        font-size: 19%;
     }
     .about-item .active{
         padding: 0.4rem 1rem;
@@ -998,6 +1002,14 @@ p {
 @media screen and (max-width:193px){
     :root{
         font-size: 10%;
+    }
+    .about-item .active{
+        padding: 0.1rem 1rem;
+    }
+}
+@media screen and (max-width:140px){
+    :root{
+        font-size: 6%;
     }
     .about-item .active{
         padding: 0.1rem 1rem;
