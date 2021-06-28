@@ -949,6 +949,12 @@ p {
         font-size: 1.6rem;
         margin-top: 1rem;
     }
+    .navbar-nav{
+        margin-top:1rem;
+    }
+    .list-item{
+        margin-left:auto;
+    }
 }
 @media screen and (max-width:490px){
     :root{
